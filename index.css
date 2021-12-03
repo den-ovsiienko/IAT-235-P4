@@ -1,0 +1,263 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-decoration: underline ;
+    color: #5050FF;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    color: #5050FF;
+} 
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h3, h4, h5 {
+    color: #5050FF;
+}
+html{
+    scroll-behavior: smooth;
+}
+.a111{
+    background-color:#007bff;
+    border-radius: 0.25rem;
+    
+}
+.navbar{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 0.5rem 0.5rem;
+}
+.a123{
+    display: inline-block;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    transition: background-color 0.25s ease-out;
+    
+}
+
+#about-box {
+    color: #FFFFFF;
+    background: #5050FF;
+    opacity: 0.85;
+}
+
+#about-box h1 {
+    color: #FFFFFF
+}
+
+#about-box h3 {
+    color: #FFFFFF
+}
+
+.a123:hover, .a123-item:focus{
+    background: #5050FF;
+    color: #FFFFFF !important;
+}
+
+.navbar{
+    min-height: 2vh;
+}
+
+#home {
+
+    min-height: 100vh;
+    
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+#description{
+    min-height: 70vh;
+    color: black;
+    text-align: center;
+    padding: 55px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.action-caption {
+    color:  #000000;
+
+}
+#initiatives {
+    min-height: 80vh;
+    color: black;
+    text-align: center;
+    padding: 55px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+#action-plans-route-maps{
+
+    min-height: 5vh;
+    color: black;
+    text-align: center;
+    padding: 55px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+img {
+    width: 100%;
+}
+
+.image1{
+    
+    display: block;
+    width: 100%;
+    /* height: 500px; */
+    position: absolute;
+    
+}
+#display1{
+    right:100px;
+    top:60px;
+}
+
+
+.image2{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+}
+#display2{
+    top: 120px;
+    left:40px;
+}
+
+.image3{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+}
+#display3{
+    top: 120px;
+    left:30px;
+}
+
+.image4{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+}
+#display4{
+    top: 117px;
+    left: 2em;
+}
+
+
+.image5{
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+}
+#display5{
+    top: 117px;
+    left: 3em;
+}
+
+.image6{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.background-image{
+ width: 100%;
+ object-fit: cover;
+}
+.header {
+    font-size: 90px;
+    font-style: normal;
+    font-stretch: wider;
+    color: #5050FF;
+    opacity: 0.8;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.benefit-img {
+    padding: 1rem;
+    background-color: #5050FF;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    opacity: 0.9;
+    transition:0.3s;
+}
+
+.benefit-text {
+    padding: 1rem;
+    background-color: #5050FF;
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    color: #FFFFFF;
+    border-radius: 0px 0px 0.5rem 0.5rem;
+    opacity: 0.9;
+    transition:0.3s;
+}
+
+.benefit-img:hover {
+    transform: scaleY(1.1) scaleX(1.1);
+    opacity: 1;
+}
+
+.benefit-text:hover {
+    transform: scaleY(1.1) scaleX(1.1);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 990px) {
+    #about-box {
+        margin-top: 1.5rem;
+    }
+
+    #initiative-box {
+        margin-top: 1.5rem;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .header {
+        font-size: 48px;
+    }
+    #action-plans-route-maps h4 {
+        margin-top: 2rem;
+    }
+
+    .benefit-img {
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        color: #FFFFFF;
+    }
+  }
